@@ -223,3 +223,28 @@ section:nth-of-type(2) div:nth-of-type(7) .cards {
 section:nth-of-type(2) div:nth-of-type(8) .cards {
   filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(118, 3, 149, 0.54));
 }
+section:nth-of-type(2) div:nth-of-type(9) .cards {
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(255, 255, 0, 0.409));
+}
+section:nth-of-type(2) div:nth-of-type(10) .cards {
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(23, 106, 0, 0.82));
+}
+@media (max-width: 600px) {
+  .parent {
+    flex-direction: column;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .h1 {
+    font-size: 25px;
+  }
+  .headerImage1,
+  .headerImage2 {
+    display: none;
+  }
+  body {
+    background-image: none;
+    background: linear-gradient(black, rgb(110, 0, 0), black);
+  }
+}
