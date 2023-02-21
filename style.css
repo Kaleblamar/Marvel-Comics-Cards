@@ -229,13 +229,18 @@ section:nth-of-type(2) div:nth-of-type(9) .cards {
 section:nth-of-type(2) div:nth-of-type(10) .cards {
   filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(23, 106, 0, 0.82));
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .parent {
     flex-direction: column;
   }
   .row {
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
   }
+  .cards:hover {
+    transform: none;
+  }
+
   .h1 {
     font-size: 25px;
   }
