@@ -25,6 +25,7 @@ setting to 0 when columns arent even fixes problem */
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-image: url(./images/inifinitystones.webp);
 
@@ -45,7 +46,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20em;
+  /* gap: 20em; */
   padding: 15px 15px;
   background-color: rgb(0, 0, 0, 0.7);
   margin-bottom: 20px;
